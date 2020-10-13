@@ -9,5 +9,4 @@ public class ProductManager {
     public void addProduct(Product addedProduct) {
         repository.saveProduct(addedProduct);
     }
-
 }
